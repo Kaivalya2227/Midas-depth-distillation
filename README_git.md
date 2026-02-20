@@ -9,11 +9,11 @@ We implement a teacher-student framework where a lightweight U-Net (student) is 
 ##  Project Structure
 
 ```
-u7839703.zip/MidTermProject
+Midas-depth-distillation
 │
-├── u7839703_MidTermProject_Code.ipynb          # Core code with training, evaluation, and visualization
+├── Project_Code_Notebook.ipynb          # Core code with training, evaluation, and visualization
 ├── jcsmr.jpg             # Provided input image (John Curtin School of Medical Research)
-├── u7839703.pdf          # Report
+├── Report.pdf          # Report
 └── README.md             # This file
 ```
 
@@ -47,9 +47,9 @@ pip install torch torchvision timm opencv-python matplotlib
 
 ### 1. Upload `jcsmr.jpg` to the working directory.
 
-### 2. Open and execute `code.ipynb`.
+### 2. Open and execute `code.py`.
 
-This notebook will:
+This will:
 - Load the teacher model (MiDaS).
 - Augment the base image into a pseudo-dataset.
 - Train the student model.
@@ -68,4 +68,4 @@ The notebook plots the predicted depth maps:
 
 ---
 ### By:
-Kaivalya Karanam (u7839703)
+Kaivalya Karanam
